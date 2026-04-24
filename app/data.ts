@@ -30,12 +30,12 @@ export const PERGUNTAS_AVALIACAO = [
 // --- LISTA COMPLETA DAS 42 ATIVIDADES ---
 export const FASES = [
   // Módulo 1
-  { id: 1, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Introdução", tipo: "video", vId: "Gkuo63mOEvk" },
-  { id: 2, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Boas Vindas!", tipo: "video", vId: "T4yqCO7mOCY" },
-  { id: 3, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Abertura Diretoria", tipo: "video", vId: "j0w8ZC1ZJKQ" },
-  { id: 4, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Nossa História", tipo: "video", vId: "Jqnu14Mq8eE" },
-  { id: 5, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Nossos Clientes", tipo: "video", vId: "5dQckoxh3iM" },
-  { id: 6, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Jogo da Memória", tipo: "puzzle" },
+  { id: 1, modulo: 1, mNome: "Boas Vindas", titulo: "Introdução", tipo: "video", vId: "Gkuo63mOEvk" },
+  { id: 2, modulo: 1, mNome: "Boas Vindas", titulo: "Boas Vindas!", tipo: "video", vId: "T4yqCO7mOCY" },
+  { id: 3, modulo: 1, mNome: "Boas Vindas", titulo: "Abertura Diretoria", tipo: "video", vId: "j0w8ZC1ZJKQ" },
+  { id: 4, modulo: 1, mNome: "Boas Vindas", titulo: "Nossa História", tipo: "video", vId: "Jqnu14Mq8eE" },
+  { id: 5, modulo: 1, mNome: "Boas Vindas", titulo: "Nossos Clientes", tipo: "video", vId: "5dQckoxh3iM" },
+  { id: 6, modulo: 1, mNome: "Boas Vindas", titulo: "Jogo da Memória", tipo: "puzzle" },
 
   // Módulo 2
   { id: 7, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 1", tipo: "video", vId: "4Lby8WJDvNY" }, //conceitos básicos de logística

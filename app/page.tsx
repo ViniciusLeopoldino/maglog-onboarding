@@ -37,11 +37,11 @@ export default function OnboardingPage() {
       <div className="fixed inset-0 z-0 opacity-5 pointer-events-none grayscale" 
            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d')", backgroundSize: 'cover' }} />
 
-      {/* Header com Barra de Progresso */}
+      {/* Header com Barra de Progresso
       <header className="sticky top-0 z-50 bg-white shadow-xl p-4 md:p-6 flex justify-between items-center border-l-[10px] border-[#005367]">
         <div>
           <h1 className="font-black uppercase italic text-[#005367] text-lg md:text-2xl">Maglog Onboarding</h1>
-          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest hidden md:block">Plataforma de Treinamento Interno</p>
+          <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest hidden md:block">Conheça a Maglog</p>
         </div>
         <div className="flex items-center gap-4">
           <div className="text-right hidden md:block">
@@ -52,9 +52,9 @@ export default function OnboardingPage() {
             {Math.round((progresso / FASES.length) * 100)}%
           </div>
         </div>
-      </header>
+      </header> */}
 
-      <main className="relative z-10 max-w-6xl mx-auto p-6 md:p-12 space-y-24">
+      <main className="relative z-10 max-w-6xl mx-auto p-6 md:p-6 space-y-20">
         {/* Agrupamento por Módulos */}
         {[1, 2, 3, 4, 5].map((mId) => {
           const moduloFases = FASES.filter((f) => f.modulo === mId);
@@ -63,9 +63,9 @@ export default function OnboardingPage() {
           return (
             <section key={mId} className="animate-in fade-in slide-in-from-bottom-4 duration-700">
               {/* Card do Título do Módulo */}
-              <div className="bg-white p-6 md:p-8 rounded-[35px] shadow-lg border border-gray-100 flex items-center gap-6 mb-12 relative overflow-hidden">
+              <div className="bg-white p-6 md:p-4 rounded-[35px] shadow-lg border border-gray-100 flex items-center gap-3 mb-3 relative overflow-hidden">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-[#005367]/5 rounded-full -mr-16 -mt-16" />
-                <div className="w-16 h-16 md:w-20 md:h-20 bg-[#005367] text-white rounded-3xl flex items-center justify-center font-black text-3xl md:text-4xl italic shadow-inner">
+                <div className="w-16 h-16 md:w-10 md:h-10 bg-[#005367] text-white rounded-3xl flex items-center justify-center font-black text-3xl md:text-4xl italic shadow-inner">
                   {mId}
                 </div>
                 <div>
@@ -98,10 +98,10 @@ export default function OnboardingPage() {
                         disabled={estaBloqueada}
                         onClick={() => setFaseSel(fase)}
                         className={`
-                          relative w-24 h-24 rounded-full border-[6px] shadow-2xl transition-all duration-300 flex items-center justify-center
+                          relative w-20 h-20 rounded-full border-[3px] shadow-2xl transition-all duration-300 flex items-center justify-center
                           ${estaBloqueada 
                             ? "bg-gray-100 border-gray-200 text-gray-300 cursor-not-allowed opacity-60" 
-                            : "bg-white border-[#005367] text-[#005367] cursor-pointer hover:scale-110 hover:rotate-3 ring-8 ring-white/50 active:scale-95"}
+                            : "bg-white border-[#005367] text-[#005367] cursor-pointer hover:scale-110 hover:rotate-3 ring-4 ring-white/50 active:scale-95"}
                         `}
                       >
                         {estaConcluida ? (
@@ -164,7 +164,7 @@ export default function OnboardingPage() {
 
       {/* Footer Fixo */}
       <footer className="text-center py-10 opacity-30">
-        <p className="text-[10px] font-bold uppercase tracking-[0.5em]">Maglog Logística S.A. &copy; 2026</p>
+        <p className="text-[10px] font-bold uppercase tracking-[0.5em]">Maglog Logística e Transportes &copy; 2026</p>
       </footer>
     </div>
   );
