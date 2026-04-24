@@ -30,48 +30,48 @@ export const PERGUNTAS_AVALIACAO = [
 // --- LISTA COMPLETA DAS 42 ATIVIDADES ---
 export const FASES = [
   // Módulo 1
-  { id: 1, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Introdução", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 2, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Boas Vindas!", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 3, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Abertura Diretoria", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 4, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Nossa História", tipo: "puzzle" },
-  { id: 5, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Nossos Clientes", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 1, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Introdução", tipo: "video", vId: "Gkuo63mOEvk" },
+  { id: 2, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Boas Vindas!", tipo: "video", vId: "T4yqCO7mOCY" },
+  { id: 3, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Abertura Diretoria", tipo: "video", vId: "j0w8ZC1ZJKQ" },
+  { id: 4, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Nossa História", tipo: "video", vId: "Jqnu14Mq8eE" },
+  { id: 5, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Nossos Clientes", tipo: "video", vId: "5dQckoxh3iM" },
   { id: 6, modulo: 1, mNome: "Boas Vindas - Institucional", titulo: "Jogo da Memória", tipo: "puzzle" },
 
   // Módulo 2
-  { id: 7, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 1", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 8, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 2", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 9, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 3", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 10, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 4", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 11, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 5", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 12, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 6", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 7, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 1", tipo: "video", vId: "4Lby8WJDvNY" }, //conceitos básicos de logística
+  { id: 8, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 2", tipo: "video", vId: "lNnijxiVz5I" },
+  { id: 9, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 3", tipo: "video", vId: "1NutqQvJ1iw" }, // vid 8
+  { id: 10, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 4", tipo: "video", vId: "EAEiYpWWtnQ" },
+  { id: 11, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 5", tipo: "video", vId: "VHS3aj2S0MY" },
+  { id: 12, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 6", tipo: "video", vId: "o2GYi_KUQJo" }, // vid 11
   { id: 13, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Desafio Glossário", tipo: "forca", resp: "LOGISTICA", dica: "O coração do nosso negócio" },
-  { id: 14, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Nossa Estrutura", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 15, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Gestão Estoque", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 16, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Nossa Frota", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 14, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Nossa Estrutura", tipo: "video", vId: "92jtqV-ogaU" }, // vid 12
+  { id: 15, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Gestão Estoque", tipo: "video", vId: "qoV5g2UNKp4" }, // vid 13
+  { id: 16, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Nossa Frota", tipo: "video", vId: "hlG_AsNM5uI" }, // vid 14
   { id: 17, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Desafio Frota", tipo: "forca", resp: "TRANSPORTE", dica: "Movimentação de cargas" },
-  { id: 18, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Nosso Processo", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 18, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Nosso Processo", tipo: "video", vId: "4lsOzK3Qv9E" }, // vid 15
   { id: 19, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Caça Palavras", tipo: "puzzle" },
   { id: 20, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Complete Frase", tipo: "puzzle" },
 
   // Módulo 3
-  { id: 21, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Missão e Visão", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 21, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Missão e Visão", tipo: "video", vId: "dQw4w9WgXcQ" }, 
   { id: 22, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Não Discriminação", tipo: "video", vId: "dQw4w9WgXcQ" },
   { id: 23, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Saúde SSO", tipo: "video", vId: "dQw4w9WgXcQ" },
   { id: 24, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Meio Ambiente", tipo: "video", vId: "dQw4w9WgXcQ" },
   { id: 25, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Ligue Letras", tipo: "forca", resp: "MAGLOG", dica: "Nome da nossa empresa" },
 
   // Módulo 4
-  { id: 26, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Organograma", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 27, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Frequência", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 26, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Organograma", tipo: "video", vId: "_QCcqea4fvo" }, // vid 19
+  { id: 27, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Frequência", tipo: "video", vId: "Y1BDKky240c" }, // vid 20
   { id: 28, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Frequência", tipo: "forca", resp: "PONTO", dica: "Registro de jornada" },
-  { id: 29, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 1", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 30, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 2", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 29, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 1", tipo: "video", vId: "HPSbOQ_IdYs" }, // vid 21
+  { id: 30, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 2", tipo: "video", vId: "Wq_PXHg8p_k" }, // vid 22
   { id: 31, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Atestados", tipo: "forca", resp: "SAUDE", dica: "Motivo de afastamento" },
-  { id: 32, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Uniforme", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 32, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Uniforme", tipo: "video", vId: "WObbU4_ZTbU" }, // vid 23
   { id: 33, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Uniforme", tipo: "forca", resp: "EPI", dica: "Equipamento de proteção" },
-  { id: 34, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Refeitório", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 34, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Refeitório", tipo: "video", vId: "XTLMxovBaH8" }, // vid 24
   { id: 35, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Estrutura", tipo: "forca", resp: "PAUSA", dica: "Hora do descanso" },
-  { id: 36, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Escritório", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 36, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Escritório", tipo: "video", vId: "wpS4JrULwZ0" }, // vid 25
   { id: 37, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Recursos", tipo: "forca", resp: "ORDEM", dica: "Organização no ambiente" },
   { id: 38, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Benefícios", tipo: "video", vId: "dQw4w9WgXcQ" },
   { id: 39, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Compliance", tipo: "forca", resp: "ETICA", dica: "Princípio de conduta" },
