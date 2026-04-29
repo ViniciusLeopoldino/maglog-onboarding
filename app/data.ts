@@ -55,29 +55,29 @@ export const FASES = [
 
   // Módulo 3
   // { id: 21, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Missão e Visão", tipo: "video", vId: "dQw4w9WgXcQ" }, //????
-  { id: 22, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Não Discriminação", tipo: "video", vId: "VV43JiUd6Rk" }, // vid 16
-  { id: 23, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Saúde SSO", tipo: "video", vId: "1K9JgzJb9dA" }, // vid 17
-  { id: 24, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Meio Ambiente", tipo: "video", vId: "aCCBtMOqthU" }, // vid 18
-  { id: 25, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Ligue Letras", tipo: "forca", resp: "MAGLOG", dica: "Nome da nossa empresa" },
+  { id: 21, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Não Discriminação", tipo: "video", vId: "VV43JiUd6Rk" }, // vid 16
+  { id: 22, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Saúde SSO", tipo: "video", vId: "1K9JgzJb9dA" }, // vid 17
+  { id: 23, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Meio Ambiente", tipo: "video", vId: "aCCBtMOqthU" }, // vid 18
+  { id: 24, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Ligue Letras", tipo: "forca", resp: "MAGLOG", dica: "Nome da nossa empresa" },
 
   // Módulo 4
-  { id: 26, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Organograma", tipo: "video", vId: "_QCcqea4fvo" }, // vid 19
-  { id: 27, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Frequência", tipo: "video", vId: "Y1BDKky240c" }, // vid 20
-  { id: 28, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Frequência", tipo: "forca", resp: "PONTO", dica: "Registro de jornada" },
-  { id: 29, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 1", tipo: "video", vId: "HPSbOQ_IdYs" }, // vid 21
-  { id: 30, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 2", tipo: "video", vId: "Wq_PXHg8p_k" }, // vid 22
-  { id: 31, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Atestados", tipo: "forca", resp: "SAUDE", dica: "Motivo de afastamento" },
-  { id: 32, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Uniforme", tipo: "video", vId: "WObbU4_ZTbU" }, // vid 23
-  { id: 33, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Uniforme", tipo: "forca", resp: "EPI", dica: "Equipamento de proteção" },
-  { id: 34, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Refeitório", tipo: "video", vId: "XTLMxovBaH8" }, // vid 24
-  { id: 35, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Estrutura", tipo: "forca", resp: "PAUSA", dica: "Hora do descanso" },
-  { id: 36, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Escritório", tipo: "video", vId: "wpS4JrULwZ0" }, // vid 25
-  { id: 37, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Recursos", tipo: "forca", resp: "ORDEM", dica: "Organização no ambiente" },
-  { id: 38, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Benefícios", tipo: "video", vId: "bCqBJKsu57w" }, // vid 26
-  { id: 39, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Compliance", tipo: "forca", resp: "ETICA", dica: "Princípio de conduta" },
-  { id: 40, modulo: 4, mNome: "Compliance e Benefícios", titulo: "5S Organização", tipo: "video", vId: "hKOfStob89s" }, // vid 27
-  { id: 41, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz 5S", tipo: "forca", resp: "LIMPEZA", dica: "Um dos sensos do 5S" },
+  { id: 25, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Organograma", tipo: "video", vId: "_QCcqea4fvo" }, // vid 19
+  { id: 26, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Frequência", tipo: "video", vId: "Y1BDKky240c" }, // vid 20
+  { id: 27, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Frequência", tipo: "forca", resp: "PONTO", dica: "Registro de jornada" },
+  { id: 28, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 1", tipo: "video", vId: "HPSbOQ_IdYs" }, // vid 21
+  { id: 29, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Atestados 2", tipo: "video", vId: "Wq_PXHg8p_k" }, // vid 22
+  { id: 30, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Atestados", tipo: "forca", resp: "SAUDE", dica: "Motivo de afastamento" },
+  { id: 31, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Uniforme", tipo: "video", vId: "WObbU4_ZTbU" }, // vid 23
+  { id: 32, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Uniforme", tipo: "forca", resp: "EPI", dica: "Equipamento de proteção" },
+  { id: 33, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Refeitório", tipo: "video", vId: "XTLMxovBaH8" }, // vid 24
+  { id: 34, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Estrutura", tipo: "forca", resp: "PAUSA", dica: "Hora do descanso" },
+  { id: 35, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Escritório", tipo: "video", vId: "wpS4JrULwZ0" }, // vid 25
+  { id: 36, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Recursos", tipo: "forca", resp: "ORDEM", dica: "Organização no ambiente" },
+  { id: 37, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Benefícios", tipo: "video", vId: "bCqBJKsu57w" }, // vid 26
+  { id: 38, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Compliance", tipo: "forca", resp: "ETICA", dica: "Princípio de conduta" },
+  { id: 39, modulo: 4, mNome: "Compliance e Benefícios", titulo: "5S Organização", tipo: "video", vId: "hKOfStob89s" }, // vid 27
+  { id: 40, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz 5S", tipo: "forca", resp: "LIMPEZA", dica: "Um dos sensos do 5S" },
 
   // Módulo 5
-  { id: 42, modulo: 5, mNome: "Avaliação Final", titulo: "Avaliação de Conhecimento", tipo: "quiz" },
+  { id: 41, modulo: 5, mNome: "Avaliação Final", titulo: "Avaliação de Conhecimento", tipo: "quiz" },
 ];
