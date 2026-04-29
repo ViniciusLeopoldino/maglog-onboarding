@@ -30,19 +30,19 @@ export const PERGUNTAS_AVALIACAO = [
 // --- LISTA COMPLETA DAS 42 ATIVIDADES ---
 export const FASES = [
   // Módulo 1
-  { id: 1, modulo: 1, mNome: "Boas Vindas", titulo: "Introdução", tipo: "video", vId: "Gkuo63mOEvk" },
-  { id: 2, modulo: 1, mNome: "Boas Vindas", titulo: "Boas Vindas!", tipo: "video", vId: "T4yqCO7mOCY" },
-  { id: 3, modulo: 1, mNome: "Boas Vindas", titulo: "Abertura Diretoria", tipo: "video", vId: "j0w8ZC1ZJKQ" },
-  { id: 4, modulo: 1, mNome: "Boas Vindas", titulo: "Nossa História", tipo: "video", vId: "Jqnu14Mq8eE" },
-  { id: 5, modulo: 1, mNome: "Boas Vindas", titulo: "Nossos Clientes", tipo: "video", vId: "5dQckoxh3iM" },
+  { id: 1, modulo: 1, mNome: "Boas Vindas", titulo: "Introdução", tipo: "video", vId: "Gkuo63mOEvk" }, // vid 1
+  { id: 2, modulo: 1, mNome: "Boas Vindas", titulo: "Boas Vindas!", tipo: "video", vId: "T4yqCO7mOCY" }, // vid 2
+  { id: 3, modulo: 1, mNome: "Boas Vindas", titulo: "Abertura Diretoria", tipo: "video", vId: "j0w8ZC1ZJKQ" }, // vid 3
+  { id: 4, modulo: 1, mNome: "Boas Vindas", titulo: "Nossa História", tipo: "video", vId: "Jqnu14Mq8eE" }, // vid 4
+  { id: 5, modulo: 1, mNome: "Boas Vindas", titulo: "Nossos Clientes", tipo: "video", vId: "5dQckoxh3iM" }, // vid 5
   { id: 6, modulo: 1, mNome: "Boas Vindas", titulo: "Jogo da Memória", tipo: "puzzle" },
 
   // Módulo 2
-  { id: 7, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 1", tipo: "video", vId: "4Lby8WJDvNY" }, //conceitos básicos de logística
-  { id: 8, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 2", tipo: "video", vId: "lNnijxiVz5I" },
+  { id: 7, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 1", tipo: "video", vId: "4Lby8WJDvNY" }, //vid 6
+  { id: 8, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 2", tipo: "video", vId: "lNnijxiVz5I" }, //vid 7 
   { id: 9, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 3", tipo: "video", vId: "1NutqQvJ1iw" }, // vid 8
-  { id: 10, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 4", tipo: "video", vId: "EAEiYpWWtnQ" },
-  { id: 11, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 5", tipo: "video", vId: "VHS3aj2S0MY" },
+  { id: 10, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 4", tipo: "video", vId: "EAEiYpWWtnQ" }, // vid 9
+  { id: 11, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 5", tipo: "video", vId: "VHS3aj2S0MY" }, // vid 10
   { id: 12, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Glossário Pt 6", tipo: "video", vId: "o2GYi_KUQJo" }, // vid 11
   { id: 13, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Desafio Glossário", tipo: "forca", resp: "LOGISTICA", dica: "O coração do nosso negócio" },
   { id: 14, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Nossa Estrutura", tipo: "video", vId: "92jtqV-ogaU" }, // vid 12
@@ -54,10 +54,10 @@ export const FASES = [
   { id: 20, modulo: 2, mNome: "Conceitos Fundamentais e Estrutura Física", titulo: "Complete Frase", tipo: "puzzle" },
 
   // Módulo 3
-  { id: 21, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Missão e Visão", tipo: "video", vId: "dQw4w9WgXcQ" }, 
-  { id: 22, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Não Discriminação", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 23, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Saúde SSO", tipo: "video", vId: "dQw4w9WgXcQ" },
-  { id: 24, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Meio Ambiente", tipo: "video", vId: "dQw4w9WgXcQ" },
+  // { id: 21, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Missão e Visão", tipo: "video", vId: "dQw4w9WgXcQ" }, //????
+  { id: 22, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Não Discriminação", tipo: "video", vId: "VV43JiUd6Rk" }, // vid 16
+  { id: 23, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Saúde SSO", tipo: "video", vId: "1K9JgzJb9dA" }, // vid 17
+  { id: 24, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Meio Ambiente", tipo: "video", vId: "aCCBtMOqthU" }, // vid 18
   { id: 25, modulo: 3, mNome: "Missão, Valores e Saúde", titulo: "Ligue Letras", tipo: "forca", resp: "MAGLOG", dica: "Nome da nossa empresa" },
 
   // Módulo 4
@@ -73,9 +73,9 @@ export const FASES = [
   { id: 35, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Estrutura", tipo: "forca", resp: "PAUSA", dica: "Hora do descanso" },
   { id: 36, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Escritório", tipo: "video", vId: "wpS4JrULwZ0" }, // vid 25
   { id: 37, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Recursos", tipo: "forca", resp: "ORDEM", dica: "Organização no ambiente" },
-  { id: 38, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Benefícios", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 38, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Benefícios", tipo: "video", vId: "bCqBJKsu57w" }, // vid 26
   { id: 39, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz Compliance", tipo: "forca", resp: "ETICA", dica: "Princípio de conduta" },
-  { id: 40, modulo: 4, mNome: "Compliance e Benefícios", titulo: "5S Organização", tipo: "video", vId: "dQw4w9WgXcQ" },
+  { id: 40, modulo: 4, mNome: "Compliance e Benefícios", titulo: "5S Organização", tipo: "video", vId: "hKOfStob89s" }, // vid 27
   { id: 41, modulo: 4, mNome: "Compliance e Benefícios", titulo: "Quiz 5S", tipo: "forca", resp: "LIMPEZA", dica: "Um dos sensos do 5S" },
 
   // Módulo 5
